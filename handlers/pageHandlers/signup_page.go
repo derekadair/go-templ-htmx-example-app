@@ -6,11 +6,10 @@ import (
 	"net/mail"
 
 	"github.com/a-h/templ"
+	"github.com/derekadair/go-templ-htmx-example-app/handlers"
+	"github.com/derekadair/go-templ-htmx-example-app/services"
+	"github.com/derekadair/go-templ-htmx-example-app/ui/pages"
 	"github.com/labstack/echo/v4"
-
-	"github.com/alekLukanen/go-templ-htmx-example-app/handlers"
-	"github.com/alekLukanen/go-templ-htmx-example-app/services"
-	"github.com/alekLukanen/go-templ-htmx-example-app/ui/pages"
 )
 
 type SignupPageHandler struct {

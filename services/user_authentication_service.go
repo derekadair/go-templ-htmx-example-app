@@ -7,12 +7,11 @@ import (
 	"net/mail"
 	"time"
 
+	"github.com/derekadair/go-templ-htmx-example-app/database/queries"
+	"github.com/derekadair/go-templ-htmx-example-app/settings"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"
 	"golang.org/x/crypto/bcrypt"
-
-	"github.com/alekLukanen/go-templ-htmx-example-app/database/queries"
-	"github.com/alekLukanen/go-templ-htmx-example-app/settings"
 )
 
 var ErrInvalidPassword error = errors.New("ErrInvalidPassword")

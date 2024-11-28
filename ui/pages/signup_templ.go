@@ -10,7 +10,7 @@ import "context"
 import "io"
 import "bytes"
 
-import "github.com/alekLukanen/go-templ-htmx-example-app/ui/components"
+import "github.com/derekadair/go-templ-htmx-example-app/ui/components"
 
 type SignupInputFormParams struct {
 	Email                       string

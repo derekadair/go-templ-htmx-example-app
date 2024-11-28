@@ -4,7 +4,7 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/alekLukanen/go-templ-htmx-example-app/database/queries"
+	"github.com/derekadair/go-templ-htmx-example-app/database/queries"
 )
 
 type ServiceMesh struct {

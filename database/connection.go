@@ -5,9 +5,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/derekadair/go-templ-htmx-example-app/settings"
 	"github.com/jackc/pgx/v5/pgxpool"
-
-	"github.com/alekLukanen/go-templ-htmx-example-app/settings"
 )
 
 func ConfigurePostgresDBConnection(ctx context.Context) (*pgxpool.Pool, error) {

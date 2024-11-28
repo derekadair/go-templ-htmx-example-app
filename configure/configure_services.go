@@ -5,11 +5,10 @@ import (
 	"log/slog"
 	"time"
 
+	"github.com/derekadair/go-templ-htmx-example-app/database"
+	"github.com/derekadair/go-templ-htmx-example-app/database/queries"
+	"github.com/derekadair/go-templ-htmx-example-app/services"
 	"github.com/jackc/pgx/v5/pgxpool"
-
-	"github.com/alekLukanen/go-templ-htmx-example-app/database"
-	"github.com/alekLukanen/go-templ-htmx-example-app/database/queries"
-	"github.com/alekLukanen/go-templ-htmx-example-app/services"
 )
 
 type ServiceConfiguration struct {

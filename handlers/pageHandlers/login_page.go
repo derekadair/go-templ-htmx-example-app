@@ -6,12 +6,11 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/derekadair/go-templ-htmx-example-app/handlers"
+	"github.com/derekadair/go-templ-htmx-example-app/services"
+	"github.com/derekadair/go-templ-htmx-example-app/ui/components"
+	"github.com/derekadair/go-templ-htmx-example-app/ui/pages"
 	"github.com/labstack/echo/v4"
-
-	"github.com/alekLukanen/go-templ-htmx-example-app/handlers"
-	"github.com/alekLukanen/go-templ-htmx-example-app/services"
-	"github.com/alekLukanen/go-templ-htmx-example-app/ui/components"
-	"github.com/alekLukanen/go-templ-htmx-example-app/ui/pages"
 )
 
 type LoginPageHandler struct {

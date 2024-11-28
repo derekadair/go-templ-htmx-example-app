@@ -4,10 +4,9 @@ import (
 	"context"
 	"log/slog"
 
+	"github.com/derekadair/go-templ-htmx-example-app/handlers"
+	"github.com/derekadair/go-templ-htmx-example-app/ui/pages"
 	"github.com/labstack/echo/v4"
-
-	"github.com/alekLukanen/go-templ-htmx-example-app/handlers"
-	"github.com/alekLukanen/go-templ-htmx-example-app/ui/pages"
 )
 
 type HomePageHandler struct {

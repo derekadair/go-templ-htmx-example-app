@@ -5,15 +5,14 @@ import (
 	"log/slog"
 	"net/http"
 
+	"github.com/derekadair/go-templ-htmx-example-app/handlers"
+	"github.com/derekadair/go-templ-htmx-example-app/handlers/componentHandlers"
+	"github.com/derekadair/go-templ-htmx-example-app/handlers/pageHandlers"
+	"github.com/derekadair/go-templ-htmx-example-app/services"
+	"github.com/derekadair/go-templ-htmx-example-app/settings"
 	"github.com/golang-jwt/jwt/v5"
 	echojwt "github.com/labstack/echo-jwt/v4"
 	"github.com/labstack/echo/v4"
-
-	"github.com/alekLukanen/go-templ-htmx-example-app/handlers"
-	"github.com/alekLukanen/go-templ-htmx-example-app/handlers/componentHandlers"
-	"github.com/alekLukanen/go-templ-htmx-example-app/handlers/pageHandlers"
-	"github.com/alekLukanen/go-templ-htmx-example-app/services"
-	"github.com/alekLukanen/go-templ-htmx-example-app/settings"
 )
 
 func ConfigureUIHandlers(ctx context.Context, echoHandler *echo.Echo, logger *slog.Logger, configuration *ServiceConfiguration) {

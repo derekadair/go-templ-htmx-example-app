@@ -6,12 +6,11 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/derekadair/go-templ-htmx-example-app/handlers"
+	"github.com/derekadair/go-templ-htmx-example-app/services"
+	"github.com/derekadair/go-templ-htmx-example-app/ui/components"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"
-
-	"github.com/alekLukanen/go-templ-htmx-example-app/handlers"
-	"github.com/alekLukanen/go-templ-htmx-example-app/services"
-	"github.com/alekLukanen/go-templ-htmx-example-app/ui/components"
 )
 
 type AuthRefreshComponentHandler struct {

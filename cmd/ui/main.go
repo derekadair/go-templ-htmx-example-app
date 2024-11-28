@@ -7,7 +7,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/alekLukanen/go-templ-htmx-example-app/configure"
+	"github.com/derekadair/go-templ-htmx-example-app/configure"
 )
 
 func main() {

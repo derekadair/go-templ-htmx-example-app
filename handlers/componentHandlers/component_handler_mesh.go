@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"reflect"
 
-	"github.com/alekLukanen/go-templ-htmx-example-app/handlers"
-	"github.com/alekLukanen/go-templ-htmx-example-app/services"
+	"github.com/derekadair/go-templ-htmx-example-app/handlers"
+	"github.com/derekadair/go-templ-htmx-example-app/services"
 	"github.com/labstack/echo/v4"
 )
 

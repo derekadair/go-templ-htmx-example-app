@@ -5,11 +5,10 @@ import (
 	"log"
 	"os"
 
+	"github.com/derekadair/go-templ-htmx-example-app/database"
 	"github.com/golang-migrate/migrate/v4"
 	_ "github.com/golang-migrate/migrate/v4/database/pgx"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
-
-	"github.com/alekLukanen/go-templ-htmx-example-app/database"
 )
 
 func main() {

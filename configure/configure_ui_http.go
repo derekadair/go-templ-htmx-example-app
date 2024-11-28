@@ -8,10 +8,9 @@ import (
 	"net"
 	"net/http"
 
+	"github.com/derekadair/go-templ-htmx-example-app/settings"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-
-	"github.com/alekLukanen/go-templ-htmx-example-app/settings"
 )
 
 const PORT int = 3000

@@ -1,4 +1,4 @@
-module github.com/alekLukanen/go-templ-htmx-example-app
+module github.com/derekadair/go-templ-htmx-example-app
 
 go 1.22.0
 
